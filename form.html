@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container page-form">
+
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.png" width="154" height="64" alt="GllacyShop">
+      </a>
+      <ul class="site-menu">
+        <li class="site-menu-item">
+          <a class="site-menu-link" href="#" title="Каталог"><span>Каталог</span></a>
+          <ul class="submenu">
+            <li class="submenu-item submenu-item--new">
+              <a href="#">Новинки</a>
+            </li>
+            <li class="submenu-item">
+              <a href="catalog.html">Сливочные</a>
+            </li>
+            <li class="submenu-item">
+              <a href="#">Щербеты</a>
+            </li>
+            <li class="submenu-item">
+              <a href="#">Фруктовый лед</a>
+            </li>
+            <li class="submenu-item">
+              <a href="#">Мелорин</a>
+            </li>
+          </ul>
+        </li>
+        <li class="site-menu-item">
+          <a class="site-menu-link" href="#" title="Доставка и оплата"><span>Доставка и оплата</span></a>
+        </li>
+        <li class="site-menu-item">
+          <a class="site-menu-link" href="#" title="О Компании"><span>О Компании</span></a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="user-menu">
+      <li class="user-menu-item user-menu-item--search">
+        <a class="user-menu-link" href="#" title="Поиск">Поиск</a>
+        <div class="search">
+          <form class="search-form form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="form-group">
+              <label class="visually-hidden form-label" for="search">Что ищем?</label>
+              <input type="search" name="search" id="search" placeholder="Что ищем?">
+            </div>
+          </form>
+        </div>
+      </li>
+      <li class="user-menu-item user-menu-item--login">
+        <a class="user-menu-link" href="#" title="Вход">Вход</a>
+        <div class="login">
+          <form class="login-form form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="form-group">
+              <input type="email" name="email" id="email" placeholder="Электронная почта">
+              <label class="visually-hidden form-label" for="email">Электронная почта</label>
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" id="password" placeholder="Пароль">
+              <label class="visually-hidden form-label" for="password">Пароль</label>
+            </div>
+            <button class="button" type="submit">Войти</button>
+            <div class="form-footer">
+              <a class="text-link" href="#">Забыли пароль?</a>
+              <a class="text-link" href="#">Новая регистрация</a>
+            </div>
+          </form>
+        </div>
+      </li>
+      <li class="user-menu-item user-menu-item--cart">
+        <a class="user-menu-link" href="#">Пусто</a>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+
+    <h1 class="visually-hidden">Интернет-магазин мороженого Gllacy</h1>
+
+    <section class="about">
+      <h2 class="visually-hidden">Информация о работе магазина</h2>
+      <p class="about-time">
+        С 10 до 20, ежедневно
+      </p>
+      <p class="about-phone">
+        8 812 450-25-25
+      </p>
+    </section>
+
+    <div class="modal-form">
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <p>Мы обязательно вам ответим!</p>
+        <div class="form-group">
+          <label class="visually-hidden" for="login">Как вас зовут?</label>
+          <input id="login" type="text" name="login" placeholder="Как вас зовут?">
+        </div>
+        <div class="form-group">
+          <label class="visually-hidden" for="email_message">Ваша почта для ответа?</label>
+          <input id="email_message" type="email" name="address" placeholder="Ваша почта для ответа?">
+        </div>
+        <div class="form-group">
+          <label class="visually-hidden" for="message">Напишите что-нибудь...</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Напишите что-нибудь..."></textarea>
+        </div>
+        <button type="submit" class="button">Отправить</button>
+      </form>
+    </div>
+
+  </main>
+</div>
+
+<footer class="main-footer container">
+  <div class="social">
+    <span class="visually-hidden">Мы в соцсетях:</span>
+    <a class="social-button social-button-twitter" href="#">Твиттер</a><span class="visually-hidden">,</span>
+    <a class="social-button social-button-instagram" href="#">Инстаграм</a><span class="visually-hidden">,</span>
+    <a class="social-button social-button-facebook" href="#">Фейсбук</a><span class="visually-hidden">,</span>
+    <a class="social-button social-button-vkontakte" href="#">Вконтакте</a>
+  </div>
+  <div class="footer-nav">
+    <ul class="footer-nav-list">
+      <li class="footer-nav-item"><a class="text-link" href="#">Для поставщиков</a></li>
+      <li class="footer-nav-item"><a class="text-link" href="#">О производстве</a></li>
+      <li class="footer-nav-item"><a class="text-link" href="#">Наши документы</a></li>
+      <li class="footer-nav-item"><a class="text-link" href="#">Экологические стандарты</a></li>
+    </ul>
+  </div>
+  <div class="copyright">
+    <a class="copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">
+      <img src="img/htmlacademy.png" width="108" height="38" alt="HTML Academy">
+    </a>
+    <p>Сделано в <a class="text-link" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
+  </div>
+</footer>
+
+</body>
+</html>
